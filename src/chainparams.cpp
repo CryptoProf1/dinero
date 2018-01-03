@@ -159,9 +159,9 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
 
-LogPrintf(hashGenesisBlock);
+LogPrintf("hashGenesisBlock\n");
 
-LogPrintf(genesis.hashMerkleRoot);
+LogPrintf("genesis.hashMerkleRoot\n");
 
 
 
